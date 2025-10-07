@@ -1,4 +1,5 @@
-#making it into a function so that you can plug in any company
+#making function that allows you to plug in any ticker and get the three statements saved as excel
+#note this is quarterly data, if you don't want that use 'financials.T' instead of 'quarterly_financials.T'
 
 import yfinance as yf
 import pandas as pd
